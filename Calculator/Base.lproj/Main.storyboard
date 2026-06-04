@@ -19,10 +19,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wd8-DU-Cjs">
                                 <rect key="frame" x="0.0" y="118" width="390" height="712"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="200" translatesAutoresizingMaskIntoConstraints="NO" id="GZn-ax-Q7B" userLabel="LabelView">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" spacing="200" translatesAutoresizingMaskIntoConstraints="NO" id="GZn-ax-Q7B" userLabel="LabelView">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="300"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="12 x10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pxn-IK-qra">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="12 x10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="369" translatesAutoresizingMaskIntoConstraints="NO" id="Pxn-IK-qra">
                                                 <rect key="frame" x="0.0" y="0.0" width="390" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <nil key="textColor"/>
@@ -38,6 +38,8 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="390" id="QRR-tY-17h"/>
                                             <constraint firstAttribute="height" constant="300" id="aMa-oB-iqY"/>
+                                            <constraint firstItem="Pxn-IK-qra" firstAttribute="top" secondItem="GZn-ax-Q7B" secondAttribute="top" id="du9-6f-SOI"/>
+                                            <constraint firstAttribute="bottom" secondItem="CQw-gC-o2x" secondAttribute="bottom" constant="20" id="l1E-dg-aF8"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="ugJ-eR-Eq2" userLabel="BtnView">
