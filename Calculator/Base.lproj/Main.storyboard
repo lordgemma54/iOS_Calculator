@@ -167,27 +167,31 @@
                                         <rect key="frame" x="0.0" y="561.33333333333337" width="377" height="88.666666666666629"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ng-AT-5hC">
-                                                <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="88.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="88.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="0">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xu-yj-tBg">
-                                                <rect key="frame" x="126.33333333333334" y="0.0" width="124.33333333333334" height="88.666666666666671"/>
+                                                <rect key="frame" x="188.66666666666666" y="0.0" width="92.999999999999972" height="88.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title=".">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOR-mT-R7Y">
-                                                <rect key="frame" x="252.66666666666671" y="0.0" width="124.33333333333334" height="88.666666666666671"/>
+                                                <rect key="frame" x="283.66666666666669" y="0.0" width="93.333333333333314" height="88.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="=">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="2Xu-yj-tBg" firstAttribute="width" secondItem="ZOR-mT-R7Y" secondAttribute="width" id="IkX-a0-UUV"/>
+                                            <constraint firstItem="7ng-AT-5hC" firstAttribute="width" secondItem="2Xu-yj-tBg" secondAttribute="width" multiplier="2" id="dfS-oF-684"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
